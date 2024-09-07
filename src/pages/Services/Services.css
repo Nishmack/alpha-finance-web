@@ -1,0 +1,186 @@
+
+
+  :root {
+    --e-global-color-primary: #2a2c38;
+    --e-global-color-secondary: #ff9021;
+  }
+
+  .services {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
+                      url(https://alphaafin.com.au/wp-content/uploads/2024/08/img-section-12-1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1; 
+    
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+    height: 371px;
+  }
+  
+  
+  .services-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; 
+    color: white; 
+  }
+  
+  .services-content h1 {
+    font-size: 3rem;
+    display: block;
+    text-align: center !important;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+  }
+  .service-page-head h1{
+    margin-left: 152px;
+    font-size: 3rem;
+    display: block;
+    text-align: left;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #2a2c38;
+    
+  }
+  .service-page-head{
+    background-color: #fff8f9;
+  }
+
+
+
+  
+
+.custom-section1-page {
+    padding: 60px 0;
+    background-color: #fff8f9;
+  }
+  
+  .custom-section1-page span {
+    font-size: 1rem;
+    display: block;
+    text-align: center !important;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #2a2c38;
+    padding-top: 154px;
+  }
+  .text-center-page p{
+    font-size: 3rem;
+    display: block;
+    
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #2a2c38;
+    background-color: #fff8f9;
+    text-align: center;
+   padding-bottom: 61px;
+  }
+  
+  .service-card {
+    
+
+    flex: 0 0 38%;
+  background-color: white; 
+  border-bottom: 5px solid var(--e-global-color-secondary); 
+  padding: 50px 40px 40px 40px; 
+  border-radius: 30px; 
+  margin-bottom: 20px; 
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  height: 495px;
+  font-family: sans-serif;
+  
+   
+  }
+  
+  .service-card h3 {
+    color: #2a2c38;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .service-card p {
+    font-size: 1rem;
+    color: #666;
+    text-align: left;
+  }
+  .my-4{
+    color: black;
+  }
+  .custom-carousel1-page.our-services-carousel .carousel-control-prev,
+  .custom-carousel1-page.our-services-carousel .carousel-control-next {
+    display: none;
+  }
+  .custom-carousel1-page .carousel-item {
+    height: 100% !important; 
+  }
+  
+  .custom-carousel1-page .carousel-item img {
+   
+    height: 2626px;
+    border-radius: 30px;
+    
+  }
+  .servicecarousel span{
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 25px;
+   
+  }
+  .servicecarousel p {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px; 
+    
+  }
+  .text1 {
+    font-weight: bold;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 30px !important;
+    
+    margin-bottom: 1018px !important; 
+  }
+
+
+ 
+
+ @media (max-width: 768px) {
+  .text-center-page p{
+    font-size: 2rem;
+  }
+  .service-page-head h1{
+    margin-left: 20px;
+    text-align: left;
+  }
+    /* .servicecarousel span {
+        font-size: 20px; 
+        margin-top: 20px; 
+    }
+    .servicecarousel p {
+        font-size: 15px; 
+    }
+    .custom-carousel1 .carousel-item img {
+      height: auto;
+      width: 100%;
+      object-fit: contain;
+  } */
+}
+
+@media (max-width: 576px) {
+  .text-center-page p{
+    font-size: 2rem;
+  }
+    /* .servicecarousel span {
+        font-size: 18px; 
+        margin-top: 15px; 
+    }
+    .servicecarousel p {
+        font-size: 12px; 
+} */
+} 
+
+   

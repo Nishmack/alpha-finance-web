@@ -1,0 +1,77 @@
+:root {
+  --e-global-color-primary: #2a2c38;
+  --e-global-color-secondary: #ff9021;
+}
+
+.custom-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 20px 100px 20px !important;
+  border-top: 7px solid var(--e-global-color-secondary);
+  background-color: var(--e-global-color-primary);
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+}
+
+.first-section,
+.sec-section {
+  flex: 0 0 38%;
+  background-color: white;
+  border-bottom: 5px solid var(--e-global-color-secondary);
+  padding: 50px 40px 40px 40px;
+  border-radius: 30px;
+  margin-bottom: 20px;
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  height: 300px;
+  font-family: sans-serif;
+}
+
+.first-section {
+  margin-top: 1.5rem !important;
+  margin-right: 10px;
+}
+.first-section span {
+  font-weight: bold;
+  color: #2a2c38;
+}
+.first-section p {
+  font-size: 17px;
+  color: #585855;
+}
+.first-section h4 {
+  font-weight: 14px;
+}
+.first-section.ele {
+  color: #22232d;
+  font-weight: bold;
+}
+.sec-section {
+  margin-left: 35px;
+}
+.sec-section span {
+  font-weight: bold;
+  color: #2a2c38;
+}
+.sec-section p {
+  font-size: 17px;
+  color: #585855;
+}
+.sec-section h4 {
+  font-weight: 14px;
+}
+.sec-section.ele {
+  color: #22232d;
+  font-weight: bold;
+}
+
+@media (max-width: 767.98px) {
+  .custom-section {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .first-section,
+  .sec-section {
+    flex: 0 0 100%;
+    margin-left: 0;
+  }
+}

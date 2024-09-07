@@ -1,0 +1,45 @@
+.section-container {
+  background-image: url("../../assets/bg.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 536px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+
+.section-container h2 {
+  font-size: 48px;
+  margin-bottom: 56px;
+  color: #2a2c38;
+}
+
+.contact-button {
+  background-color: white;
+  color: #22232d;
+  padding: 29px 55px;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: bold;
+}
+.section-container p {
+  color: #2a2c38;
+  font-size: 25px;
+  padding-top: 30px;
+  margin-top: 56px;
+}
+a {
+  text-decoration: underline;
+  color: #2a2c38;
+  cursor: pointer;
+}
+
+a span {
+  font-weight: bold;
+  color: #2a2c38;
+}
